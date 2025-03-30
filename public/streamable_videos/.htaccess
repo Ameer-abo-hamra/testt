@@ -1,0 +1,4 @@
+<FilesMatch "\.m3u8$">
+    ForceType application/vnd.apple.mpegurl
+    Header set Content-Type application/vnd.apple.mpegurl
+</FilesMatch>
